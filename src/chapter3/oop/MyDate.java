@@ -4,6 +4,9 @@ public class MyDate {
 	private int year;
 	private int month;
 	private int day;
+	public int exposedDay;
+	public int exposedMonth;
+	public int exposedYear;
 //	public int day;
 	
 	//default constructor
@@ -16,6 +19,9 @@ public class MyDate {
 //		this.month = month;
 		setMonth(month);
 		this.day = day;
+		this.exposedDay = day;
+		this.exposedMonth = month;
+		this.exposedYear = year;
 	}
 	
 	
