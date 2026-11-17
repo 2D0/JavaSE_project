@@ -9,6 +9,10 @@ public class PersonManager {
 		PersonEntity[] persons = new PersonEntity[10];
 		pManager.fillPersons(persons);
 		pManager.showPersons(persons);
+		
+		char gender = '여';
+		System.out.print("성별 " + gender + "은(는)");
+		System.out.println(pManager.findByGender(persons, gender) + " 명 입니다.");
 	}
 	
 	//PersonEntity 배열의 값을 채워 넣는 메소드
@@ -36,6 +40,10 @@ public class PersonManager {
 	//입력 받은 성별 값에 해당하는 PersonEntity 객체의 건수를 찾는 메소드
 	public int findByGender(PersonEntity[] persons, char gender) {
 		int personCount = 0;
+		
+		for (PersonEntity person : persons) {
+			
+		}
 		
 		return personCount;
 	}
