@@ -48,4 +48,11 @@ public class Account {
 	public void withdraw(int amount) {
 		this.balance -= amount;
 	}
+
+	@Override
+	public String toString() {
+		return "Account [custId=" + custId + ", acctId=" + acctId + ", balance=" + balance + "]";
+	}
+	
+	
 }

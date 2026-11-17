@@ -21,5 +21,10 @@ public class AccountTest {
 		System.out.println("고객번호 = " + account2.getCustId());
 		System.out.println("계좌번호 = " + account2.getAcctId());
 		System.out.println("잔액 = " + account2.getBalance());
+		
+		//toString();
+		//println가 알아서 toString 있는지 체크하고 불러준다. 디컴파일로 소스 보면 됨.
+		//getClass().getName() + '@' + Integer.toHexString(hashCode())
+		System.out.println(account2);
 	}
 }
