@@ -8,8 +8,16 @@ public class TestIntArray {
 		//int 타입의 배열을 선언
 		int[] nums;
 		int nums2[] = {100,200,300,400,500,600};
-		for (int i : nums2) {
-			System.out.println(i);
+		
+		//기존의 for loop
+		for(int i=0; i < nums2.length; i++) {
+			System.out.println(nums2[i]);
+		}
+		
+		//enhanced for loop
+		//배열이 됐건 컬렉션이 됐건 사용 방법 똑같아서 권장한다고 함.
+		for (int value : nums2) {
+			System.out.println(value);
 		}
 		System.out.println("배열값의 합은 :" + getSum(nums2));
 		
