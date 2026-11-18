@@ -2,7 +2,7 @@ package workshop.account.entity;
 
 import workshop.account.exception.InsufficientBalanceException;
 
-public class Account {
+public class Account extends Object {
 	private String custId;
 	private String acctId;
 	private int balance;

@@ -23,8 +23,8 @@ public class TestMyDateArrayList {
 		
 
 		//Generics
-		ArrayList<String> list3 = new ArrayList<>();	
-		List<MyDate> list = new ArrayList<>();
+		ArrayList<MyDate> list3 = new ArrayList<>(); //(1)
+		List<MyDate> list = new ArrayList<>();  //(2)
 		
 		//2. fillArrayList() 메서드를 호출하세요
 		fillArrayList(list);
