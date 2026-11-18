@@ -35,7 +35,7 @@ public class Fish extends Animal implements Pet {
 	@Override
 	public void walk() {
 		// TODO Auto-generated method stub
-		super.walk();
+		System.out.println("물고기는 걷지 않고 물에서 헤엄쳐요.");
 	}
 
 }
