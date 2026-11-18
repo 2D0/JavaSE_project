@@ -2,6 +2,8 @@ package chapter5.oop.good;
 
 public class InFlexibleCompanyDemo {
     public static void main(String[] args) {
+//    	Employee e = new Employee(); //abstract하면 자체 생성 안 된다 함.
+    	Employee e1 = new MereClerk("철수", 100);
         
         MereClerk mereClerk1 = new MereClerk("철수", 100);
         MereClerk mereClerk2 = new MereClerk("영희", 100);
