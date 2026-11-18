@@ -22,7 +22,7 @@ public class MyCalculatorUsingScanner {
 		int result = 0;
 		result = add(num1, num2);
 		System.out.println("더하기 연산 결과 : " + result);
-		result = substract(num1, num2);
+		result = subtract(num1, num2);
 		System.out.println("빼기 연산 결과 : " + result);
 		result = remainder(num1, num2);
 		System.out.println("나머지 연산 결과 :" + result);
@@ -31,7 +31,7 @@ public class MyCalculatorUsingScanner {
 	public static int add(int op1, int op2) {
 		return op1 + op2;
 	}
-	public static int substract(int op1, int op2) {
+	public static int subtract(int op1, int op2) {
 		return op1 - op2;
 	}
 	public static int multiply(int op1, int op2) {

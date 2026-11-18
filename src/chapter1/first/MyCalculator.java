@@ -1,6 +1,6 @@
 package chapter1.first;
 
-public class MyCalcurator {
+public class MyCalculator {
 
 	public static void main(String[] args) {
 		//1. 아규먼트의 length 를 체크해서  length != 2 면  프로그램 종료
@@ -17,7 +17,7 @@ public class MyCalcurator {
 		int result = 0;
 		result = add(num1, num2);
 		System.out.println("더하기 연산 결과 : " + result);
-		result = substract(num1, num2);
+		result = subtract(num1, num2);
 		System.out.println("빼기 연산 결과 : " + result);
 		result = remainder(num1, num2);
 		System.out.println("나머지 연산 결과 :" + result);
@@ -26,7 +26,7 @@ public class MyCalcurator {
 	public static int add(int op1, int op2) {
 		return op1 + op2;
 	}
-	public static int substract(int op1, int op2) {
+	public static int subtract(int op1, int op2) {
 		return op1 - op2;
 	}
 	public static int multiply(int op1, int op2) {

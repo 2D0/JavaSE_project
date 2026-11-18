@@ -1,7 +1,7 @@
-package chapter5.oop.myinteface.test;
+package chapter5.oop.myinterface.test;
 
-import chapter5.oop.myinteface.IRemoteControl;
-import chapter5.oop.myinteface.LGRemoteTv;
+import chapter5.oop.myinterface.IRemoteControl;
+import chapter5.oop.myinterface.LGRemoteTv;
 
 public class TestInterface {
 

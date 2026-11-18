@@ -1,4 +1,4 @@
-package chapter5.oop.myinteface;
+package chapter5.oop.myinterface;
 
 public class LGRemoteTv implements IRemoteControl{
 

@@ -1,4 +1,4 @@
-package chapter5.oop.myinteface;
+package chapter5.oop.myinterface;
 
 public interface IRemoteControl {
 	 static final int ON =1;

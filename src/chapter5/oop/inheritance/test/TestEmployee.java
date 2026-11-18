@@ -8,7 +8,7 @@ public class TestEmployee {
 
 	public static void main(String[] args) {
 		//1. Manager 객체 생성
-		//beforePolymorpism();
+		//beforePolymorphism();
 		afterPolymorphism();
 	}
 	//poly(다양한) + morphism(변형, 변신하다)
@@ -52,7 +52,7 @@ public class TestEmployee {
 	}
 	
 	//다형성을 적용하기 전
-	public static void beforePolymorpism() {
+	public static void beforePolymorphism() {
 		Manager mgr1 = new Manager();
 		
 		System.out.println("급여 인상하기 전 ");
