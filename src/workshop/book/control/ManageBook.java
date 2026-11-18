@@ -42,10 +42,19 @@ public class ManageBook {
 		for (Publication publication : pubs) {
 			System.out.println(publication);
 		}
+		
+		Publication pub3 = pubs[2];
+		System.out.println("===가격 변경 전===");
+		System.out.println(pub3.getTitle() + " " + pub3.getPrice());
+
+		modifyPrice(pub3);
+		
+		System.out.println("=== 가격 변경 후 ===");
+		System.out.println(pub3.getTitle() + " " + pub3.getPrice());
 
 	} //main
 	
-	//pub는 다형적 아규먼트(Polymorphic Argument) Good (1)
+	//pub는 다형적 알규먼트 (Polymorphic Argument)
 	public static void modifyPrice(Publication pub) {
 		double rate = 0.0;
 		//Magazine이면 40%, Novel이면 20%, ReferenceBook 이면 10%
@@ -61,21 +70,6 @@ public class ManageBook {
 		
 		pub.setPrice((int)(pub.getPrice() * rate));
 	}
-
-	/*
-	//Bad
-	public static void modifyPrice(Magazine ma) {
-		
-	}
-	
-	public static void modifyPrice(Novel no) {
-		
-	}
-	
-	public static void modifyPrice(ReferenceBook rb) {
-		
-	}
-	*/
 	
 	
 
